@@ -1,6 +1,8 @@
 """
-RetailPulse — Smart Metadata-Driven Retail Supply Chain Dashboard
-Celebal Excellence Internship | Major Project
+RetailPulse
+Smart Metadata-Driven Retail Supply Chain Pipeline
+Celebal Excellence Internship (CEI) | Final Major Project
+Developed by Nithin Siga
 """
 
 import streamlit as st
@@ -12,7 +14,7 @@ import plotly.graph_objects as go
 
 # ── PAGE CONFIG ──────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="RetailPulse | Supply Chain Analytics",
+    page_title="RetailPulse",
     page_icon="📦",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -91,7 +93,7 @@ html, body, [class*="css"] {
 .topbar {
     background: white;
     border-radius: 16px;
-    padding: 20px 32px;
+    padding: 24px 32px;
     margin-bottom: 24px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 4px 16px rgba(30,86,219,0.08);
     border: 1px solid #e2e8f0;
@@ -99,21 +101,39 @@ html, body, [class*="css"] {
     align-items: center;
     justify-content: space-between;
 }
+.topbar-eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    color: #1a56db;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 4px;
+}
 .topbar-title {
     font-family: 'EB Garamond', 'Times New Roman', serif !important;
-    font-size: 36px;
+    font-size: 42px;
     font-weight: 800;
     color: #0f172a;
-    letter-spacing: -0.5px;
-    line-height: 1.1;
+    letter-spacing: -1px;
+    line-height: 1.05;
+    margin-bottom: 2px;
 }
 .topbar-title span { color: #1a56db; }
+.topbar-project-title {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 14px;
+    font-weight: 600;
+    color: #475569;
+    letter-spacing: 0.01em;
+    margin-bottom: 10px;
+}
 .topbar-sub {
-    font-size: 15px;
+    font-size: 14px;
     color: #374151;
-    margin-top: 5px;
+    margin-top: 4px;
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 1.65;
+    max-width: 680px;
 }
 .topbar-badge {
     display: inline-block;
@@ -406,18 +426,20 @@ total_stores  = load_data("SELECT COUNT(*) as c FROM stores")["c"].iloc[0] or 0
 st.markdown(f"""
 <div class="topbar">
   <div>
-    <div class="topbar-title">📦 <span>RetailPulse</span> Supply Chain Analytics</div>
+    <div class="topbar-title"><span>RetailPulse</span></div>
+    <div class="topbar-project-title">Smart Metadata-Driven Retail Supply Chain Pipeline</div>
     <div class="topbar-sub">
-      An end-to-end retail data engineering pipeline that ingests fragmented store, inventory,
-      and order data — cleans and enriches it through a three-layer Medallion Architecture
-      (Bronze → Silver → Gold) — and surfaces critical supply chain KPIs: stockout alerts,
-      demand trends, top-selling products, and store performance rankings.
+      RetailPulse is an end-to-end retail data engineering application implementing the
+      Medallion Architecture (Bronze&nbsp;→&nbsp;Silver&nbsp;→&nbsp;Gold). It transforms
+      fragmented retail operational data into analytics-ready datasets and business insights
+      using Python, Pandas, SQLite, Streamlit, and Databricks&nbsp;(PySpark).
     </div>
-    <div style="margin-top:10px">
+    <div style="margin-top:12px">
       <span class="topbar-badge">Python + Pandas</span>
       <span class="topbar-badge">SQLite Analytics</span>
       <span class="topbar-badge">Bronze → Silver → Gold</span>
-      <span class="topbar-badge">Streamlit Dashboard</span>
+      <span class="topbar-badge">Streamlit</span>
+      <span class="topbar-badge">Databricks · PySpark</span>
     </div>
   </div>
   <div style="display:flex; gap:20px; flex-shrink:0;">
@@ -1449,11 +1471,24 @@ with tabs[6]:
 # ── FOOTER ───────────────────────────────────────────────────────────────────
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown("""
-<div style="text-align:center; padding:20px 0; border-top:1px solid #e2e8f0;">
-  <div style="font-family:'EB Garamond',serif; font-size:16px; font-weight:700;
-       color:#0f172a; margin-bottom:6px">RetailPulse — Smart Metadata-Driven Retail Supply Chain Pipeline</div>
-  <div style="font-size:12px; color:#94a3b8">
-    Celebal Excellence Internship · Major Project &nbsp;|&nbsp;
-    Built with Python · Pandas · SQLite · Plotly · Streamlit
+<div style="border-top:1px solid #e2e8f0; padding:28px 0 20px 0;">
+  <div style="display:flex; align-items:flex-start; justify-content:space-between; flex-wrap:wrap; gap:16px;">
+    <div>
+      <div style="font-family:'EB Garamond',serif; font-size:22px; font-weight:800;
+           color:#1a56db; letter-spacing:-0.5px; margin-bottom:3px;">RetailPulse</div>
+      <div style="font-size:13px; font-weight:600; color:#475569; margin-bottom:8px;">
+        Smart Metadata-Driven Retail Supply Chain Pipeline
+      </div>
+      <div style="font-size:12px; color:#94a3b8; line-height:1.7;">
+        RetailPulse v1.0 &nbsp;·&nbsp; Final Major Project<br>
+        Celebal Excellence Internship (CEI) &nbsp;·&nbsp; Developed by <strong style="color:#64748b;">Nithin Siga</strong>
+      </div>
+    </div>
+    <div style="text-align:right;">
+      <div style="font-size:12px; color:#cbd5e1; line-height:2;">
+        Python &nbsp;·&nbsp; Pandas &nbsp;·&nbsp; SQLite &nbsp;·&nbsp; Plotly &nbsp;·&nbsp; Streamlit<br>
+        PySpark &nbsp;·&nbsp; Databricks &nbsp;·&nbsp; Delta Lake
+      </div>
+    </div>
   </div>
 </div>""", unsafe_allow_html=True)

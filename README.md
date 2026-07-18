@@ -8,7 +8,7 @@ RetailPulse was developed as the final major project for the **Celebal Excellenc
 
 An end-to-end data engineering project that implements the **Medallion Architecture** (Bronze → Silver → Gold) to process retail supply chain data and generate actionable business insights.
 
-The project demonstrates how raw operational data is transformed into analytics-ready datasets using Python, SQL, and Streamlit — while also providing a scalable cloud implementation using Databricks and PySpark.
+RetailPulse is an end-to-end retail data engineering application implementing the Medallion Architecture (Bronze → Silver → Gold). The application integrates ETL pipelines, SQL analytics, inventory monitoring, demand simulation, and enterprise scalability concepts using Databricks (PySpark).
 
 ---
 

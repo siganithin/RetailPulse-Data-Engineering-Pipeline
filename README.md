@@ -1,6 +1,9 @@
 # RetailPulse
 ## Smart Metadata-Driven Retail Supply Chain Pipeline
 
+**Live Demo:** https://retailpulse-data-engineering-pipeline-d5npe9nithin649.streamlit.app/
+
+
 ## Project Background
 
 RetailPulse was developed as the final major project for the **Celebal Excellence Internship (CEI)**. The project demonstrates the design and implementation of an end-to-end retail supply chain data engineering pipeline using the Medallion Architecture (Bronze, Silver, Gold), with a scalable implementation in Databricks using PySpark.

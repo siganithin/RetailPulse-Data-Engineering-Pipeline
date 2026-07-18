@@ -1,0 +1,21 @@
+supplier_id,supplier_name,contact_city,lead_time_days,rating
+SUP-01,TechVision Suppliers Pvt. Ltd.,Pune,5,4.8
+SUP-02,Horizon Electronics Dist.,Hyderabad,7,4.5
+SUP-03,GadgetWorld Trading,Chennai,4,4.7
+SUP-04,AlphaFresh Agro,Nashik,12,4.1
+SUP-05,SoundWave Trading Co.,Mumbai,3,4.9
+SUP-06,FitLife Sports Imports,Delhi,6,4.2
+SUP-07,HomeStyle Goods Ltd.,Ahmedabad,4,4.6
+SUP-08,StarBake Foods,Indore,8,4.3
+SUP-09,Stride Footwear Wholesale,Chennai,8,4.3
+SUP-10,BrightHome Furnishings,Jaipur,9,4.0
+SUP-11,CozyCraft Home Textiles,Surat,6,4.7
+SUP-12,BrewMaster Ceramics,Bengaluru,5,4.5
+SUP-13,CleanCare FMCG Ltd.,Mumbai,3,4.8
+SUP-14,NatureBrew Agro Pvt. Ltd.,Darjeeling,10,4.8
+SUP-15,PharmaBase Distributors,Hyderabad,4,4.6
+SUP-16,GrainHarvest Commodities,Ludhiana,9,4.4
+SUP-17,LuxeWear Garments,Tirupur,7,4.3
+SUP-18,BabyFirst Essentials,Delhi,5,4.9
+SUP-19,EcoGreen Stationery,Pune,6,4.2
+SUP-20,NovaTech Components,Bengaluru,5,4.7

@@ -1,0 +1,31 @@
+product_id,product_name,category,supplier_id
+PROD-001,Smart LED Television 55in,Electronics,SUP-01
+PROD-002,Wireless Bluetooth Headphones,Electronics,SUP-05
+PROD-003,Men's Running Shoes Size 10,Footwear,SUP-09
+PROD-004,Organic Green Tea 200g,Grocery,SUP-14
+PROD-005,Stainless Steel Water Bottle,Kitchen,SUP-07
+PROD-006,Gaming Laptop 15.6in RTX,Electronics,SUP-01
+PROD-007,Cotton Bath Towel Set 4pc,Home & Living,SUP-11
+PROD-008,Whole Grain Brown Rice 5kg,Grocery,SUP-16
+PROD-009,Yoga Mat Anti-Slip 6mm,Sports,SUP-06
+PROD-010,Ceramic Coffee Mug 350ml,Kitchen,SUP-12
+PROD-011,Women's Casual Kurti,Clothing,SUP-17
+PROD-012,Smartphone Android 128GB,Electronics,SUP-20
+PROD-013,Baby Diaper Pack 50pcs,Baby Care,SUP-18
+PROD-014,Atta Whole Wheat Flour 10kg,Grocery,SUP-16
+PROD-015,USB-C Fast Charger 65W,Electronics,SUP-02
+PROD-016,Steel Pressure Cooker 5L,Kitchen,SUP-07
+PROD-017,A4 Notebook 200pg Ruled,Stationery,SUP-19
+PROD-018,Running Track Pants,Sports,SUP-06
+PROD-019,Sunflower Cooking Oil 5L,Grocery,SUP-04
+PROD-020,Kids Sneakers Size 5,Footwear,SUP-09
+PROD-021,Portable Bluetooth Speaker,Electronics,SUP-05
+PROD-022,Cotton Bed Sheet Double,Home & Living,SUP-11
+PROD-023,Face Wash Neem 150ml,Personal Care,SUP-13
+PROD-024,Dark Chocolate 72% 100g,Grocery,SUP-08
+PROD-025,Mechanical Keyboard RGB,Electronics,SUP-20
+PROD-026,Non-Stick Frying Pan 28cm,Kitchen,SUP-07
+PROD-027,Men's Formal Shirt,Clothing,SUP-17
+PROD-028,Green Tea Honey Lemon 25bags,Grocery,SUP-14
+PROD-029,Badminton Racket Set,Sports,SUP-06
+PROD-030,Wall Clock Wooden Decor,Home & Living,SUP-10

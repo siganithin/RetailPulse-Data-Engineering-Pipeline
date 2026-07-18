@@ -1,0 +1,11 @@
+store_id,store_name,city,region
+STR-01,RetailPulse Downtown,Mumbai,West
+STR-02,RetailPulse Bandra Hub,Mumbai,West
+STR-03,RetailPulse Connaught,New Delhi,North
+STR-04,RetailPulse Lajpat Nagar,New Delhi,North
+STR-05,RetailPulse MG Road,Bengaluru,South
+STR-06,RetailPulse Koramangala,Bengaluru,South
+STR-07,RetailPulse Park Street,Kolkata,East
+STR-08,RetailPulse Salt Lake,Kolkata,East
+STR-09,RetailPulse Anna Nagar,Chennai,South
+STR-10,RetailPulse T. Nagar,Chennai,South

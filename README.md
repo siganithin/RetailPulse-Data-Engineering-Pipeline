@@ -5,14 +5,9 @@
 
 
 ## Project Background
+## Project Background
 
-RetailPulse was developed as the final major project for the **Celebal Excellence Internship (CEI)**. The project demonstrates the design and implementation of an end-to-end retail supply chain data engineering pipeline using the Medallion Architecture (Bronze, Silver, Gold), with a scalable implementation in Databricks using PySpark.
-
-
-An end-to-end data engineering project that implements the **Medallion Architecture** (Bronze → Silver → Gold) to process retail supply chain data and generate actionable business insights.
-
-RetailPulse is an end-to-end retail data engineering application implementing the Medallion Architecture (Bronze → Silver → Gold). The application integrates ETL pipelines, SQL analytics, inventory monitoring, demand simulation, and enterprise scalability concepts using Databricks (PySpark).
-
+RetailPulse was developed as the Final Major Project for the Celebal Excellence Internship (CEI). It is an end-to-end retail data engineering application that transforms raw retail supply chain data into analytics-ready datasets using the Medallion Architecture (Bronze → Silver → Gold). The project integrates automated ETL pipelines, SQL analytics, inventory monitoring, demand simulation, and interactive dashboards to support data-driven decision-making. It also demonstrates enterprise-scale data processing using Databricks and PySpark, showcasing how the solution can scale from a local implementation to a distributed big data environment.
 ---
 
 ## Overview

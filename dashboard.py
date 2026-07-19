@@ -1165,7 +1165,7 @@ with tabs[5]:
               </tr>
               <tr style="background:#fafafa;">
                 <td style="padding:10px 14px; color:#374151;">Single Machine</td>
-                <td style="padding:10px 14px; color:#374151; font-weight:600;">Distributed Cluster</td>
+                <td style="padding:10px 14px; color:#374151; font-weight:600;">Databricks Workspace</td>
               </tr>
             </tbody>
           </table>
@@ -1230,8 +1230,9 @@ with tabs[5]:
             <div style="background:#f8fafc; border-radius:10px; padding:12px 16px;
                  border-left:3px solid #1a56db;">
               <strong style="color:#0f172a;">Distributed Processing</strong><br>
-              <span style="color:#64748b; font-size:14px;">Multiple worker nodes process data in parallel,
-              enabling significantly faster execution on large datasets.</span>
+              <span style="color:#64748b; font-size:14px;">Spark executes transformations across
+              multiple partitions in parallel, enabling significantly faster processing on
+              large datasets compared to single-machine execution.</span>
             </div>
             <div style="background:#f8fafc; border-radius:10px; padding:12px 16px;
                  border-left:3px solid #9061f9;">
@@ -1278,7 +1279,7 @@ with tabs[5]:
             BRONZE LAYER
           </div>
           <div style="font-size:14px; color:#374151;">
-            Raw data ingested from DBFS into Delta tables — no transformation applied.
+            Raw data ingested from the source path into Delta Tables — no transformation applied.
           </div>
         </div>
         <div style="flex:1; min-width:200px; background:#f0fdf4; border-radius:10px;
